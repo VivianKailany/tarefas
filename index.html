@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+        <input type="text" id="busca" onkeyup="pesquisarTarefa()" placeholder="pesquisar por titulo">
+    </header>
+    <main>
+        <section id="tarefas">
+            <h2>Tarefas <button onclick="abrirModal()">Nova tarefa</button></h2>
+            <!-- <h6>Nenhuma tarefa</h6>-->
+            <ul id="lista"></ul>
+        </section>
+        <section id="overlay" onclick="fecharModal()"></section>
+        <div id="criarTarefa" class="modal">
+            <form onsubmit="novaTarefa()">
+                <h3>Tarefa <box-icon name='x' size="md" onclick="fecharModal()"></box-icon></h3>
+                <label for="titulo">Título</label>
+                <input type="text" id="titulo" required>
+                <label for="descricao">Descrição</label>    
+                <textarea id="descricao" required></textarea>
+                <label for="prioridade">Prioridade</label>
+                <select id="prioridade" required>
+                    <option value="alta">ALTA</option>
+                    <option value="media">MÉDIA</option>
+                    <option value="baixa">BAIXA</option>
+                </select>
+                <label for="prazo">Prazo</label>
+                <input type="date" id="prazo" required>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

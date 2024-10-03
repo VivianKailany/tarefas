@@ -1,0 +1,81 @@
+{
+  "tarefas": [
+    {
+      "titulo": "Revisar Projeto de Front-end",
+      "descricao": "Revisar o layout e corrigir bugs de responsividade na aplicação web.",
+      "prioridade": "alta",
+      "prazo": "2024-10-12",
+      "id": 1
+    },
+    {
+      "titulo": "Preparar Apresentação de Marketing",
+      "descricao": "Criar slides com foco nas metas de conversão para o próximo trimestre.",
+      "prioridade": "média",
+      "prazo": "2024-10-15",
+      "id": 2
+    },
+    {
+      "titulo": "Escrever Artigo para Blog",
+      "descricao": "Escrever um artigo sobre tendências de tecnologia para ser publicado no blog da empresa.",
+      "prioridade": "baixa",
+      "prazo": "2024-10-20",
+      "id": 3
+    },
+    {
+      "titulo": "Atualizar Banco de Dados",
+      "descricao": "Inserir novos registros e remover dados desatualizados do sistema.",
+      "prioridade": "alta",
+      "prazo": "2024-10-11",
+      "id": 4
+    },
+    {
+      "titulo": "Assistir Aula de Machine Learning",
+      "descricao": "Assistir à aula gravada sobre modelos supervisionados.",
+      "prioridade": "baixa",
+      "prazo": "2024-10-21",
+      "id": 5
+    },
+    {
+      "titulo": "Organizar Documentos do Projeto",
+      "descricao": "Reorganizar todos os documentos e arquivos relacionados ao projeto.",
+      "prioridade": "média",
+      "prazo": "2024-10-18",
+      "id": 6
+    },
+    {
+      "titulo": "Enviar Relatório Mensal",
+      "descricao": "Compilar e enviar o relatório de atividades para o gerente.",
+      "prioridade": "alta",
+      "prazo": "2024-10-10",
+      "id": 7
+    },
+    {
+      "titulo": "Planejar Reunião de Equipe",
+      "descricao": "Criar agenda e materiais para a reunião de equipe da semana.",
+      "prioridade": "média",
+      "prazo": "2024-10-14",
+      "id": 8
+    },
+    {
+      "titulo": "Configurar Ambiente de Testes",
+      "descricao": "Criar ambiente isolado para realizar testes de integração.",
+      "prioridade": "baixa",
+      "prazo": "2024-10-22",
+      "id": 9
+    },
+    {
+      "titulo": "Revisar Código de API",
+      "descricao": "Verificar a consistência e otimização do código da API.",
+      "prioridade": "baixa",
+      "prazo": "2024-10-09",
+      "id": 10
+    },
+    {
+      "titulo": "Desenvolver Sistema de Gestão de Projetos",
+      "descricao": "O objetivo deste projeto é criar um sistema de gestão de projetos que permita aos usuários gerenciar suas tarefas e prazos de forma eficaz. O sistema deve incluir funcionalidades como criação de tarefas, atribuição de prioridades, gerenciamento de prazos e categorização das tarefas por status (em andamento, concluído, pendente). Além disso, deve permitir a visualização das tarefas em um formato de calendário e lista, oferecendo filtros por data, prioridade e status. A implementação deve ser feita utilizando as tecnologias mais recentes, como React para o front-end e Node.js para o back-end, assegurando que o sistema seja responsivo e intuitivo. É fundamental realizar testes de usabilidade e correção de bugs ao longo do desenvolvimento para garantir que a experiência do usuário seja satisfatória e que o sistema funcione conforme o esperado.",
+      "prioridade": "alta",
+      "prazo": "2024-11-30",
+      "id": 11
+    }
+  ]
+}
